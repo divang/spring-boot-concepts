@@ -1,0 +1,60 @@
+- Spring Boot is an open source Java-based framework used to create a Micro Service.
+- Micro Service is an architecture that allows the developers to develop and deploy services independently. Each service running has its own process and this achieves the lightweight model to support business applications.
+
+- Advantages of Micro Service: Micro services offers the following advantages to its developers:
+    Easy deployment
+    Simple scalability
+    Compatible with Containers
+    Minimum configuration
+    Lesser production time
+  
+- Advantages of Spring Boot:
+    Easy to understand and develop spring applications
+    Increases productivity
+    Reduces the development time
+    
+- Goals:
+    To avoid complex XML configuration in Spring
+    To develop a production ready Spring applications in an easier way
+    To reduce the development time and run the application independently
+    Offer an easier way of getting started with the application
+
+- Why Spring Boot?
+    It provides a flexible way to configure Java Beans, XML configurations, and Database Transactions.
+    It provides a powerful batch processing and manages REST endpoints.
+    In Spring Boot, everything is auto configured; no manual configurations are needed.\
+    It offers annotation-based spring application
+    Eases dependency management
+    It includes Embedded Servlet Container
+
+- How does it work?
+   @SpringBootApplication : The entry point of the spring boot application is the class contains @SpringBootApplication annotation and the main method.
+   @ComponentScan: Spring Boot automatically scans all the components included in the project by using @ComponentScan annotation.
+    
+   Spring Boot Starter Actuator dependency: is used to monitor and manage your application. Its code is shown below
+    <dependency>
+       <groupId>org.springframework.boot</groupId>
+       <artifactId>spring-boot-starter-actuator</artifactId>
+    </dependency> 
+    
+    Spring Boot Starter Security dependency is used for Spring Security. Its code is shown below −
+    <dependency>
+       <groupId>org.springframework.boot</groupId>
+       <artifactId>spring-boot-starter-security</artifactId>
+    </dependency>
+    
+    Spring Boot Starter web dependency is used to write a Rest Endpoints. Its code is shown below −
+    <dependency>
+       <groupId>org.springframework.boot</groupId>
+       <artifactId>spring-boot-starter-web</artifactId>
+    </dependency>
+
+    Spring Boot Starter Test dependency is used for writing Test cases. Its code is shown below −
+    <dependency>
+       <groupId>org.springframework.boot</groupId>
+       <artifactId>spring-boot-starter-test</artifactId>
+    </dependency>
+
+
+    
+    
